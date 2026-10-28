@@ -56,7 +56,7 @@ cd frontend && npm ci && npm run check && npm run build
 
 ## Deployment
 
-The repository contains a Vercel Services configuration that serves the React frontend at `/` and FastAPI at `/api` on one URL. Deployment requires a Vercel account and production project connection. **Live app URL: pending deployment.**
+The repository contains a Vercel Services configuration that serves the React frontend at `/` and FastAPI at `/api` on one URL. The `main` branch deploys to [the live app](https://copper-kite-8c541e.vercel.app/). The deployment uses the Vercel Services framework with explicit Vite and FastAPI service settings.
 
 ## AI tool use
 
