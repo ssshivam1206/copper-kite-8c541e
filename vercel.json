@@ -1,7 +1,7 @@
 {
   "services": {
-    "web": { "root": "frontend/" },
-    "api": { "root": "backend/", "entrypoint": "main:app" }
+    "web": { "root": "frontend/", "framework": "vite" },
+    "api": { "root": "backend/", "framework": "fastapi", "entrypoint": "main:app" }
   },
   "rewrites": [
     { "source": "/api/(.*)", "destination": { "service": "api" } },
